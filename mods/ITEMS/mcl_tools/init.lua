@@ -94,7 +94,7 @@ minetest.register_tool("mcl_tools:pick_iron", {
 	_repair_material = "mcl_core:iron_ingot",
 	_mcl_toollike_wield = true,
 	_mcl_diggroups = {
-		pickaxey = { speed = 6, level = 4, uses = 251 }
+		pickaxey = { speed = 6, level = 4, uses = 520 }
 	},
 })
 minetest.register_tool("mcl_tools:pick_gold", {
@@ -324,7 +324,7 @@ minetest.register_tool("mcl_tools:shovel_iron", {
 	_repair_material = "mcl_core:iron_ingot",
 	_mcl_toollike_wield = true,
 	_mcl_diggroups = {
-		shovely = { speed = 6, level = 4, uses = 251 }
+		shovely = { speed = 6, level = 4, uses = 520 }
 	},
 })
 minetest.register_tool("mcl_tools:shovel_gold", {
@@ -495,7 +495,7 @@ minetest.register_tool("mcl_tools:axe_iron", {
 	_repair_material = "mcl_core:iron_ingot",
 	_mcl_toollike_wield = true,
 	_mcl_diggroups = {
-		axey = { speed = 6, level = 4, uses = 251 }
+		axey = { speed = 6, level = 4, uses = 520 }
 	},
 })
 minetest.register_tool("mcl_tools:axe_gold", {
@@ -621,7 +621,7 @@ minetest.register_tool("mcl_tools:sword_iron", {
 	_mcl_toollike_wield = true,
 	_mcl_diggroups = {
 		swordy = { speed = 6, level = 4, uses = 251 },
-		swordy_cobweb = { speed = 6, level = 4, uses = 251 }
+		swordy_cobweb = { speed = 6, level = 4, uses = 520 }
 	},
 })
 minetest.register_tool("mcl_tools:sword_gold", {
